@@ -1,6 +1,5 @@
-# Azure
-Will utilize this repo for testing different possibilities with Azure using Github
-
+# Deploy Azure App Services using Python Code in Github
 ---
-**1. Deploy Pyton App to AppService.**
-In this test, I will attempt to push a python code to AppService and see if changes are implemented successfully. Since I am not a coder, I will use one taken from Azure Samples
+GitHub: Create a python file: app.py and place code in.
+Azure: Create a appServiceApp: corpo-appservice-prod & appServicePlan: corpo-appservice-plan
+Azure: App Service Plan > Deployment Center > Link Github repo
