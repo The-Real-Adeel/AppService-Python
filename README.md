@@ -17,5 +17,7 @@ We will create the python file here. Create App service with staging slot. Link 
 3. Azure: orgName-appServiceName-stage > Deployment Center > Link Github repo. This will push the code to Azure
 
 4. Browser: test link generated for your org from the production slot. and then test link generated from your stage slot. It should be different because we have only pushed to staging slot 
+   - Production site should be the default AppService
+   - Staging site should run using the code we entered in python
 
-5. When ready swap Stage with Prod to commit to production environment. Test again to see production matches staging
+5. When ready swap Stage with Prod to commit to production environment. Test again to see production has the code!
