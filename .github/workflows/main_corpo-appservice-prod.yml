@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'corpo-appservice-prod'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F096CEEDC8234784B8F01DA5505B6A4A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6D7E2C77B49B42DA85234942FCAD52FE }}
