@@ -1,3 +1,3 @@
 **Notes**
 
-Create a python file and place code in
+Create a python file(app.py) and place code in
