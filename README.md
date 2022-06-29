@@ -10,10 +10,10 @@ We will create the python file here. Create App service with staging slot. Link 
    - requirements file: requirements.txt and place the flash dependency
     
 2. Azure: Create the following for App Service
-   - Production: orgName-appservice-prod 
+   - Production: orgName-appServiceName 
    - appServicePlan: orgName-appservice-plan
-   - Staging: orgName-appservice-stage
+   - Staging: orgName-appServiceName-stage
 
-3. Azure: orgName-appservice-stage > Deployment Center > Link Github repo
+3. Azure: orgName-appServiceName-stage > Deployment Center > Link Github repo
 
 4. When ready swap Stage with Prod to commit to production environment
