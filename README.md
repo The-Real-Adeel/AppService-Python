@@ -5,8 +5,10 @@ We will create the python file here. Create App service with staging slot. Link 
 
 **Steps**
 
-1. GitHub: Create a python file: app.py and place code in.
-
+1. GitHub: Create the following for the code to work
+   - python file: app.py and place code in.
+   - requirements file: requirements.txt and place the flash dependency
+    
 2. Azure: Create the following for App Service
    - Production: corpo-appservice-prod 
    - appServicePlan: corpo-appservice-plan
