@@ -26,4 +26,5 @@ We will create the python file here. Create App service with staging slot. Link 
 
 5. When ready swap Stage with Prod to commit to production environment. Test again to see production has the code!
 
-**Your devs can now use the repo in github.com or vscode to write the code in their branches. Once pushed to main it will be added to the deployment slot. Once added to the deployment slot we can swap deployment with production to push the code to production.
+**Conclusion**
+Your devs can now use the repo in github.com or vscode to write the code in their branches. Once pushed to main it will be added to the deployment slot. Once added to the deployment slot we can swap deployment with production to push the code to production.
