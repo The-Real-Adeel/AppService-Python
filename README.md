@@ -1,7 +1,11 @@
-# Deploy Azure App Services using Python Code in Github
+# Deploy Azure App Services using Python Code from Github
 
 **Overview**
 We will create the python file here. Create App service with staging slot. Link the staging slot with Github. Swap to see if code shows up in prod. Since I am not a coder, we will copy a simple hello world code as a test. Bonus points if you deploy the Azure resouces via a bicep file
+
+**Requirements**
+- Understanding of GitHub
+- Understanding of how App Services work
 
 **Creation Steps**
 
