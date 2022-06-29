@@ -7,7 +7,7 @@ We will create the python file here. Create App service with staging slot. Link 
 
 1. GitHub: Create the following for the code to work
    - python file: app.py and place code in.
-   - requirements file: requirements.txt and place the flash dependency
+   - requirements file: requirements.txt and place the flash dependency for the code to run
     
 2. Azure: Create the following for App Service
    - Production: orgName-appServiceName 
