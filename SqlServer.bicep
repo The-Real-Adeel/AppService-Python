@@ -1,17 +1,16 @@
 param locationP string = resourceGroup().location
 
 @secure()
-param sqlAdminLogin string
-
+param adminUsernameP string
 @secure()
-param sqlAdminPass string
+param adminPasswordP string
 
 resource sqlServerR 'Microsoft.Sql/servers@2021-11-01-preview' = {
   name: 'corpDBServer'
   location: locationP
   properties: {
-    administratorLogin: sqlAdminLogin
-    administratorLoginPassword: sqlAdminPass
+    administratorLogin: adminUsernameP
+    administratorLoginPassword: adminPasswordP
   }
 }
 
